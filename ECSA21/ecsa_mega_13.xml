@@ -1,0 +1,483 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<experiments>
+	<runner initialSetPerComponent="yes" name="ant" useInitialMapping="no">
+		<initialSetSize base="0.5" scale="0.5"/>
+		<metrics>
+			<metric name="rand"/>
+		</metrics>
+		<systems>
+			<system file="data\systems\ant\ant.sysmdl" file_separator="\" name="ant"/>
+		</systems>
+		<experiments>
+			<experiment name="uniform" type="hugme" useManualMapping="no">
+				<omega base="0.5" scale="0.5"/>
+				<phi base="0.5" scale="0.5"/>
+				<plot_color w="1.0" x="0.8039216" y="0.19541684" z="0.11428295"/>
+			</experiment>
+			<experiment name="intuitive" type="hugme" useManualMapping="no">
+				<omega base="0.5" scale="0.5"/>
+				<phi base="0.5" scale="0.5"/>
+				<dependencyweights>
+					<Extends base="0.5899999737739563" scale="0.0"/>
+					<Implements base="0.75" scale="0.0"/>
+					<Field base="0.5" scale="0.0"/>
+					<Argument base="0.5600000023841858" scale="0.0"/>
+					<Returns base="0.6299999952316284" scale="0.0"/>
+					<LocalVar base="0.550000011920929" scale="0.0"/>
+					<MethodCall base="0.4399999976158142" scale="0.0"/>
+					<ConstructorCall base="0.41999998688697815" scale="0.0"/>
+					<OwnFieldUse base="0.49000000953674316" scale="0.0"/>
+					<FieldUse base="0.8799999952316284" scale="0.0"/>
+					<Throws base="0.20999999344348907" scale="0.0"/>
+					<File_Horizontal base="1.0" scale="0.0"/>
+					<File_LevelUp base="0.18000000715255737" scale="0.0"/>
+					<File_LevelDown base="0.18000000715255737" scale="0.0"/>
+					<Unknown base="0.0" scale="0.0"/>
+				</dependencyweights>
+				<plot_color w="1.0" x="0.26384085" y="0.31786177" z="0.88235295"/>
+			</experiment>
+			<experiment name="optimized" type="hugme" useManualMapping="no">
+				<omega base="0.5" scale="0.5"/>
+				<phi base="0.5" scale="0.5"/>
+				<dependencyweights>
+					<Extends base="1.0" scale="0.0"/>
+					<Implements base="1.0" scale="0.0"/>
+					<Field base="0.0" scale="0.0"/>
+					<Argument base="0.029999999329447746" scale="0.0"/>
+					<Returns base="0.9399999976158142" scale="0.0"/>
+					<LocalVar base="0.0" scale="0.0"/>
+					<MethodCall base="0.0" scale="0.0"/>
+					<ConstructorCall base="0.0" scale="0.0"/>
+					<OwnFieldUse base="0.0" scale="0.0"/>
+					<FieldUse base="0.27000001072883606" scale="0.0"/>
+					<Throws base="0.0" scale="0.0"/>
+					<File_Horizontal base="0.7300000190734863" scale="0.0"/>
+					<File_LevelUp base="0.0" scale="0.0"/>
+					<File_LevelDown base="0.009999999776482582" scale="0.0"/>
+					<Unknown base="0.0" scale="0.0"/>
+				</dependencyweights>
+				<plot_color w="1.0" x="0.122909434" y="0.7598039" z="0.14312837"/>
+			</experiment>
+		</experiments>
+	</runner>
+	<runner initialSetPerComponent="yes" name="argouml" useInitialMapping="no">
+		<initialSetSize base="0.5" scale="0.5"/>
+		<metrics>
+			<metric name="rand"/>
+		</metrics>
+		<systems>
+			<system file="data\systems\argouml\argouml.sysmdl" file_separator="\" name="ArgoUML"/>
+		</systems>
+		<experiments>
+			<experiment name="uniform" type="hugme" useManualMapping="no">
+				<omega base="0.5" scale="0.5"/>
+				<phi base="0.5" scale="0.5"/>
+				<plot_color w="1.0" x="0.8039216" y="0.19541684" z="0.11428295"/>
+			</experiment>
+			<experiment name="intuitive" type="hugme" useManualMapping="no">
+				<omega base="0.5" scale="0.5"/>
+				<phi base="0.5" scale="0.5"/>
+				<dependencyweights>
+					<Extends base="0.9100000262260437" scale="0.0"/>
+					<Implements base="0.8199999928474426" scale="0.0"/>
+					<Field base="0.8199999928474426" scale="0.0"/>
+					<Argument base="0.8100000023841858" scale="0.0"/>
+					<Returns base="0.8799999952316284" scale="0.0"/>
+					<LocalVar base="0.7799999713897705" scale="0.0"/>
+					<MethodCall base="0.36000001430511475" scale="0.0"/>
+					<ConstructorCall base="0.8999999761581421" scale="0.0"/>
+					<OwnFieldUse base="0.8600000143051147" scale="0.0"/>
+					<FieldUse base="0.7799999713897705" scale="0.0"/>
+					<Throws base="1.0" scale="0.0"/>
+					<File_Horizontal base="1.0" scale="0.0"/>
+					<File_LevelUp base="0.8299999833106995" scale="0.0"/>
+					<File_LevelDown base="0.550000011920929" scale="0.0"/>
+					<Unknown base="0.0" scale="0.0"/>
+				</dependencyweights>
+				<plot_color w="1.0" x="0.26384085" y="0.31786177" z="0.88235295"/>
+			</experiment>
+			<experiment name="optimized" type="hugme" useManualMapping="no">
+				<omega base="0.5" scale="0.5"/>
+				<phi base="0.5" scale="0.5"/>
+				<dependencyweights>
+					<Extends base="1.0" scale="0.0"/>
+					<Implements base="0.8700000047683716" scale="0.0"/>
+					<Field base="0.9599999785423279" scale="0.0"/>
+					<Argument base="0.6200000047683716" scale="0.0"/>
+					<Returns base="0.800000011920929" scale="0.0"/>
+					<LocalVar base="0.07000000029802322" scale="0.0"/>
+					<MethodCall base="0.0" scale="0.0"/>
+					<ConstructorCall base="0.8100000023841858" scale="0.0"/>
+					<OwnFieldUse base="1.0" scale="0.0"/>
+					<FieldUse base="0.0" scale="0.0"/>
+					<Throws base="0.8799999952316284" scale="0.0"/>
+					<File_Horizontal base="0.9599999785423279" scale="0.0"/>
+					<File_LevelUp base="0.0" scale="0.0"/>
+					<File_LevelDown base="0.14000000059604645" scale="0.0"/>
+					<Unknown base="0.0" scale="0.0"/>
+				</dependencyweights>
+				<plot_color w="1.0" x="0.122909434" y="0.7598039" z="0.14312837"/>
+			</experiment>
+		</experiments>
+	</runner>
+	<runner initialSetPerComponent="yes" name="cmn-img" useInitialMapping="no">
+		<initialSetSize base="0.5" scale="0.5"/>
+		<metrics>
+			<metric name="rand"/>
+		</metrics>
+		<systems>
+			<system file="data\systems\commons-imaging\commons-imaging.sysmdl" file_separator="\" name="Apache"/>
+		</systems>
+		<experiments>
+			<experiment name="uniform" type="hugme" useManualMapping="no">
+				<omega base="0.5" scale="0.5"/>
+				<phi base="0.5" scale="0.5"/>
+				<plot_color w="1.0" x="0.8039216" y="0.19541684" z="0.11428295"/>
+			</experiment>
+			<experiment name="intuitive" type="hugme" useManualMapping="no">
+				<omega base="0.5" scale="0.5"/>
+				<phi base="0.5" scale="0.5"/>
+				<dependencyweights>
+					<Extends base="0.800000011920929" scale="0.0"/>
+					<Implements base="0.8100000023841858" scale="0.0"/>
+					<Field base="0.9200000166893005" scale="0.0"/>
+					<Argument base="0.6399999856948853" scale="0.0"/>
+					<Returns base="0.7599999904632568" scale="0.0"/>
+					<LocalVar base="0.8299999833106995" scale="0.0"/>
+					<MethodCall base="0.5400000214576721" scale="0.0"/>
+					<ConstructorCall base="0.699999988079071" scale="0.0"/>
+					<OwnFieldUse base="0.9399999976158142" scale="0.0"/>
+					<FieldUse base="0.949999988079071" scale="0.0"/>
+					<Throws base="0.1599999964237213" scale="0.0"/>
+					<File_Horizontal base="0.5" scale="-0.5"/>
+					<File_LevelUp base="0.7400000095367432" scale="0.0"/>
+					<File_LevelDown base="0.7400000095367432" scale="0.0"/>
+					<Unknown base="0.0" scale="0.0"/>
+				</dependencyweights>
+				<plot_color w="1.0" x="0.26384085" y="0.31786177" z="0.88235295"/>
+			</experiment>
+			<experiment name="optimized" type="hugme" useManualMapping="no">
+				<omega base="0.5" scale="0.5"/>
+				<phi base="0.5" scale="0.5"/>
+				<dependencyweights>
+					<Extends base="1.0" scale="0.0"/>
+					<Implements base="0.9100000262260437" scale="0.0"/>
+					<Field base="0.3400000035762787" scale="0.0"/>
+					<Argument base="0.23999999463558197" scale="0.0"/>
+					<Returns base="1.0" scale="0.0"/>
+					<LocalVar base="0.27000001072883606" scale="0.0"/>
+					<MethodCall base="0.0" scale="0.0"/>
+					<ConstructorCall base="0.0" scale="0.0"/>
+					<OwnFieldUse base="0.019999999552965164" scale="0.0"/>
+					<FieldUse base="1.0" scale="0.0"/>
+					<Throws base="0.0" scale="0.0"/>
+					<File_Horizontal base="0.8100000023841858" scale="0.0"/>
+					<File_LevelUp base="0.0" scale="0.0"/>
+					<File_LevelDown base="0.20999999344348907" scale="0.0"/>
+					<Unknown base="0.0" scale="0.0"/>
+				</dependencyweights>
+				<plot_color w="1.0" x="0.122909434" y="0.7598039" z="0.14312837"/>
+			</experiment>
+		</experiments>
+	</runner>
+	<runner initialSetPerComponent="yes" name="jabref" useInitialMapping="no">
+		<initialSetSize base="0.5" scale="0.5"/>
+		<metrics>
+			<metric name="rand"/>
+		</metrics>
+		<systems>
+			<system file="data\systems\JabRef\3.7\jabref-3_7.sysmdl" file_separator="\" name="JabRef_37_1"/>
+		</systems>
+		<experiments>
+			<experiment name="uniform" type="hugme" useManualMapping="no">
+				<omega base="0.5" scale="0.5"/>
+				<phi base="0.5" scale="0.5"/>
+				<plot_color w="1.0" x="0.8039216" y="0.19541684" z="0.11428295"/>
+			</experiment>
+			<experiment name="intuitive" type="hugme" useManualMapping="no">
+				<omega base="0.5" scale="0.5"/>
+				<phi base="0.5" scale="0.5"/>
+				<dependencyweights>
+					<Extends base="0.9900000095367432" scale="0.0"/>
+					<Implements base="0.8299999833106995" scale="0.0"/>
+					<Field base="0.7900000214576721" scale="0.0"/>
+					<Argument base="0.6200000047683716" scale="0.0"/>
+					<Returns base="0.800000011920929" scale="0.0"/>
+					<LocalVar base="0.5099999904632568" scale="0.0"/>
+					<MethodCall base="0.44999998807907104" scale="0.0"/>
+					<ConstructorCall base="0.8899999856948853" scale="0.0"/>
+					<OwnFieldUse base="0.7699999809265137" scale="0.0"/>
+					<FieldUse base="0.6499999761581421" scale="0.0"/>
+					<Throws base="0.8600000143051147" scale="0.0"/>
+					<File_Horizontal base="0.9800000190734863" scale="0.0"/>
+					<File_LevelUp base="0.9800000190734863" scale="0.0"/>
+					<File_LevelDown base="0.9800000190734863" scale="0.0"/>
+					<Unknown base="0.0" scale="0.0"/>
+				</dependencyweights>
+				<plot_color w="1.0" x="0.26384085" y="0.31786177" z="0.88235295"/>
+			</experiment>
+			<experiment name="optimized" type="hugme" useManualMapping="no">
+				<omega base="0.5" scale="0.5"/>
+				<phi base="0.5" scale="0.5"/>
+				<dependencyweights>
+					<Extends base="1.0" scale="0.0"/>
+					<Implements base="0.9100000262260437" scale="0.0"/>
+					<Field base="0.0" scale="0.0"/>
+					<Argument base="0.3400000035762787" scale="0.0"/>
+					<Returns base="0.33000001311302185" scale="0.0"/>
+					<LocalVar base="0.0" scale="0.0"/>
+					<MethodCall base="0.0" scale="0.0"/>
+					<ConstructorCall base="0.8399999737739563" scale="0.0"/>
+					<OwnFieldUse base="0.0" scale="0.0"/>
+					<FieldUse base="0.10999999940395355" scale="0.0"/>
+					<Throws base="1.0" scale="0.0"/>
+					<File_Horizontal base="1.0" scale="0.0"/>
+					<File_LevelUp base="0.14000000059604645" scale="0.0"/>
+					<File_LevelDown base="0.4300000071525574" scale="0.0"/>
+					<Unknown base="0.0" scale="0.0"/>
+				</dependencyweights>
+				<plot_color w="1.0" x="0.122909434" y="0.7598039" z="0.14312837"/>
+			</experiment>
+		</experiments>
+	</runner>
+	<runner initialSetPerComponent="yes" name="lucene" useInitialMapping="no">
+		<initialSetSize base="0.5" scale="0.5"/>
+		<metrics>
+			<metric name="rand"/>
+		</metrics>
+		<systems>
+			<system file="data\systems\lucene\lucene.sysmdl" file_separator="\" name="lucene"/>
+		</systems>
+		<experiments>
+			<experiment name="uniform" type="hugme" useManualMapping="no">
+				<omega base="0.5" scale="0.5"/>
+				<phi base="0.5" scale="0.5"/>
+				<plot_color w="1.0" x="0.8039216" y="0.19541684" z="0.11428295"/>
+			</experiment>
+			<experiment name="intuitive" type="hugme" useManualMapping="no">
+				<omega base="0.5" scale="0.5"/>
+				<phi base="0.5" scale="0.5"/>
+				<dependencyweights>
+					<Extends base="0.8999999761581421" scale="0.0"/>
+					<Implements base="0.8100000023841858" scale="0.0"/>
+					<Field base="0.699999988079071" scale="0.0"/>
+					<Argument base="0.6399999856948853" scale="0.0"/>
+					<Returns base="0.8100000023841858" scale="0.0"/>
+					<LocalVar base="0.0" scale="0.0"/>
+					<MethodCall base="0.6700000166893005" scale="0.0"/>
+					<ConstructorCall base="0.8500000238418579" scale="0.0"/>
+					<OwnFieldUse base="0.6899999976158142" scale="0.0"/>
+					<FieldUse base="0.8899999856948853" scale="0.0"/>
+					<Throws base="0.9300000071525574" scale="0.0"/>
+					<File_Horizontal base="1.0" scale="0.0"/>
+					<File_LevelUp base="1.0" scale="0.0"/>
+					<File_LevelDown base="1.0" scale="0.0"/>
+					<Unknown base="0.0" scale="0.0"/>
+				</dependencyweights>
+				<plot_color w="1.0" x="0.26384085" y="0.31786177" z="0.88235295"/>
+			</experiment>
+			<experiment name="optimized" type="hugme" useManualMapping="no">
+				<omega base="0.5" scale="0.5"/>
+				<phi base="0.5" scale="0.5"/>
+				<dependencyweights>
+					<Extends base="1.0" scale="0.0"/>
+					<Implements base="1.0" scale="0.0"/>
+					<Field base="0.23000000417232513" scale="0.0"/>
+					<Argument base="0.09000000357627869" scale="0.0"/>
+					<Returns base="0.9599999785423279" scale="0.0"/>
+					<LocalVar base="0.44999998807907104" scale="0.0"/>
+					<MethodCall base="0.0" scale="0.0"/>
+					<ConstructorCall base="1.0" scale="0.0"/>
+					<OwnFieldUse base="0.0" scale="0.0"/>
+					<FieldUse base="0.14000000059604645" scale="0.0"/>
+					<Throws base="0.8799999952316284" scale="0.0"/>
+					<File_Horizontal base="0.6299999952316284" scale="0.0"/>
+					<File_LevelUp base="0.12999999523162842" scale="0.0"/>
+					<File_LevelDown base="0.07999999821186066" scale="0.0"/>
+					<Unknown base="0.0" scale="0.0"/>
+				</dependencyweights>
+				<plot_color w="1.0" x="0.122909434" y="0.7598039" z="0.14312837"/>
+			</experiment>
+		</experiments>
+	</runner>
+	<runner initialSetPerComponent="yes" name="prom" useInitialMapping="no">
+		<initialSetSize base="0.5" scale="0.5"/>
+		<metrics>
+			<metric name="rand"/>
+		</metrics>
+		<systems>
+			<system file="data\systems\ProM6.9\ProM_6_9.sysmdl" file_separator="\" name="ProM6.9"/>
+		</systems>
+		<experiments>
+			<experiment name="uniform" type="hugme" useManualMapping="no">
+				<omega base="0.5" scale="0.5"/>
+				<phi base="0.5" scale="0.5"/>
+				<plot_color w="1.0" x="0.8039216" y="0.19541684" z="0.11428295"/>
+			</experiment>
+			<experiment name="intuitive" type="hugme" useManualMapping="no">
+				<omega base="0.5" scale="0.5"/>
+				<phi base="0.5" scale="0.5"/>
+				<dependencyweights>
+					<Extends base="0.8700000047683716" scale="0.0"/>
+					<Implements base="0.8100000023841858" scale="0.0"/>
+					<Field base="0.9300000071525574" scale="0.0"/>
+					<Argument base="0.8500000238418579" scale="0.0"/>
+					<Returns base="0.9200000166893005" scale="0.0"/>
+					<LocalVar base="0.800000011920929" scale="0.0"/>
+					<MethodCall base="0.7599999904632568" scale="0.0"/>
+					<ConstructorCall base="0.9599999785423279" scale="0.0"/>
+					<OwnFieldUse base="0.8999999761581421" scale="0.0"/>
+					<FieldUse base="0.8199999928474426" scale="0.0"/>
+					<Throws base="1.0" scale="0.0"/>
+					<File_Horizontal base="1.0" scale="0.0"/>
+					<File_LevelUp base="1.0" scale="0.0"/>
+					<File_LevelDown base="1.0" scale="0.0"/>
+					<Unknown base="0.0" scale="0.0"/>
+				</dependencyweights>
+				<plot_color w="1.0" x="0.26384085" y="0.31786177" z="0.88235295"/>
+			</experiment>
+			<experiment name="optimized" type="hugme" useManualMapping="no">
+				<omega base="0.5" scale="0.5"/>
+				<phi base="0.5" scale="0.5"/>
+				<dependencyweights>
+					<Extends base="0.0" scale="0.0"/>
+					<Implements base="0.03999999910593033" scale="0.0"/>
+					<Field base="0.5199999809265137" scale="0.0"/>
+					<Argument base="0.029999999329447746" scale="0.0"/>
+					<Returns base="0.0" scale="0.0"/>
+					<LocalVar base="0.0" scale="0.0"/>
+					<MethodCall base="0.009999999776482582" scale="0.0"/>
+					<ConstructorCall base="0.5199999809265137" scale="0.0"/>
+					<OwnFieldUse base="0.0" scale="0.0"/>
+					<FieldUse base="0.0" scale="0.0"/>
+					<Throws base="0.5899999737739563" scale="0.0"/>
+					<File_Horizontal base="1.0" scale="0.0"/>
+					<File_LevelUp base="1.0" scale="0.0"/>
+					<File_LevelDown base="1.0" scale="0.0"/>
+					<Unknown base="0.0" scale="0.0"/>
+				</dependencyweights>
+				<plot_color w="1.0" x="0.122909434" y="0.7598039" z="0.14312837"/>
+			</experiment>
+		</experiments>
+	</runner>
+	<runner initialSetPerComponent="yes" name="sh3d" useInitialMapping="no">
+		<initialSetSize base="0.5" scale="0.5"/>
+		<metrics>
+			<metric name="rand"/>
+		</metrics>
+		<systems>
+			<system file="data\systems\sweethome3d\sweethome3d.sysmdl" file_separator="\" name="sweethome3d"/>
+		</systems>
+		<experiments>
+			<experiment name="uniform" type="hugme" useManualMapping="no">
+				<omega base="0.5" scale="0.5"/>
+				<phi base="0.5" scale="0.5"/>
+				<plot_color w="1.0" x="0.8039216" y="0.19541684" z="0.11428295"/>
+			</experiment>
+			<experiment name="intuitive" type="hugme" useManualMapping="no">
+				<omega base="0.5" scale="0.5"/>
+				<phi base="0.5" scale="0.5"/>
+				<dependencyweights>
+					<Extends base="0.8999999761581421" scale="0.0"/>
+					<Implements base="0.4000000059604645" scale="0.0"/>
+					<Field base="0.7400000095367432" scale="0.0"/>
+					<Argument base="0.4099999964237213" scale="0.0"/>
+					<Returns base="0.6899999976158142" scale="0.0"/>
+					<LocalVar base="0.0" scale="0.0"/>
+					<MethodCall base="0.36000001430511475" scale="0.0"/>
+					<ConstructorCall base="0.8700000047683716" scale="0.0"/>
+					<OwnFieldUse base="0.44999998807907104" scale="0.0"/>
+					<FieldUse base="0.6899999976158142" scale="0.0"/>
+					<Throws base="0.11999999731779099" scale="0.0"/>
+					<File_Horizontal base="1.0" scale="0.0"/>
+					<File_LevelUp base="0.0" scale="0.0"/>
+					<File_LevelDown base="0.0" scale="0.0"/>
+					<Unknown base="0.0" scale="0.0"/>
+				</dependencyweights>
+				<plot_color w="1.0" x="0.26384085" y="0.31786177" z="0.88235295"/>
+			</experiment>
+			<experiment name="optimized" type="hugme" useManualMapping="no">
+				<omega base="0.5" scale="0.5"/>
+				<phi base="0.5" scale="0.5"/>
+				<dependencyweights>
+					<Extends base="1.0" scale="0.0"/>
+					<Implements base="0.49000000953674316" scale="0.0"/>
+					<Field base="0.0" scale="0.0"/>
+					<Argument base="0.0" scale="0.0"/>
+					<Returns base="1.0" scale="0.0"/>
+					<LocalVar base="0.5099999904632568" scale="0.0"/>
+					<MethodCall base="0.0" scale="0.0"/>
+					<ConstructorCall base="0.75" scale="0.0"/>
+					<OwnFieldUse base="0.0" scale="0.0"/>
+					<FieldUse base="0.0" scale="0.0"/>
+					<Throws base="0.8299999833106995" scale="0.0"/>
+					<File_Horizontal base="1.0" scale="0.0"/>
+					<File_LevelUp base="0.6600000262260437" scale="0.0"/>
+					<File_LevelDown base="0.23999999463558197" scale="0.0"/>
+					<Unknown base="0.0" scale="0.0"/>
+				</dependencyweights>
+				<plot_color w="1.0" x="0.122909434" y="0.7598039" z="0.14312837"/>
+			</experiment>
+		</experiments>
+	</runner>
+	<runner initialSetPerComponent="yes" name="teammates" useInitialMapping="no">
+		<initialSetSize base="0.5" scale="0.5"/>
+		<metrics>
+			<metric name="rand"/>
+		</metrics>
+		<systems>
+			<system file="data\systems\teammates\teammates.sysmdl" file_separator="\" name="TeamMates"/>
+		</systems>
+		<experiments>
+			<experiment name="uniform" type="hugme" useManualMapping="no">
+				<omega base="0.5" scale="0.5"/>
+				<phi base="0.5" scale="0.5"/>
+				<plot_color w="1.0" x="0.8039216" y="0.19541684" z="0.11428295"/>
+			</experiment>
+			<experiment name="intuitive" type="hugme" useManualMapping="no">
+				<omega base="0.5" scale="0.5"/>
+				<phi base="0.5" scale="0.5"/>
+				<dependencyweights>
+					<Extends base="0.9300000071525574" scale="0.0"/>
+					<Implements base="0.33000001311302185" scale="0.0"/>
+					<Field base="0.550000011920929" scale="0.0"/>
+					<Argument base="0.3100000023841858" scale="0.0"/>
+					<Returns base="0.4300000071525574" scale="0.0"/>
+					<LocalVar base="0.12999999523162842" scale="0.0"/>
+					<MethodCall base="0.28999999165534973" scale="0.0"/>
+					<ConstructorCall base="0.4699999988079071" scale="0.0"/>
+					<OwnFieldUse base="0.47999998927116394" scale="0.0"/>
+					<FieldUse base="0.14000000059604645" scale="0.0"/>
+					<Throws base="0.009999999776482582" scale="0.0"/>
+					<File_Horizontal base="1.0" scale="0.0"/>
+					<File_LevelUp base="1.0" scale="0.0"/>
+					<File_LevelDown base="1.0" scale="0.0"/>
+					<Unknown base="0.0" scale="0.0"/>
+				</dependencyweights>
+				<plot_color w="1.0" x="0.26384085" y="0.31786177" z="0.88235295"/>
+			</experiment>
+			<experiment name="optimized" type="hugme" useManualMapping="no">
+				<omega base="0.5" scale="0.5"/>
+				<phi base="0.5" scale="0.5"/>
+				<dependencyweights>
+					<Extends base="1.0" scale="0.0"/>
+					<Implements base="0.2800000011920929" scale="0.0"/>
+					<Field base="0.0" scale="0.0"/>
+					<Argument base="0.0" scale="0.0"/>
+					<Returns base="0.44999998807907104" scale="0.0"/>
+					<LocalVar base="0.0" scale="0.0"/>
+					<MethodCall base="0.0" scale="0.0"/>
+					<ConstructorCall base="0.4000000059604645" scale="0.0"/>
+					<OwnFieldUse base="0.0" scale="0.0"/>
+					<FieldUse base="0.0" scale="0.0"/>
+					<Throws base="0.0" scale="0.0"/>
+					<File_Horizontal base="1.0" scale="0.0"/>
+					<File_LevelUp base="0.9800000190734863" scale="0.0"/>
+					<File_LevelDown base="1.0" scale="0.0"/>
+					<Unknown base="0.0" scale="0.0"/>
+				</dependencyweights>
+				<plot_color w="1.0" x="0.122909434" y="0.7598039" z="0.14312837"/>
+			</experiment>
+		</experiments>
+	</runner>
+</experiments>
